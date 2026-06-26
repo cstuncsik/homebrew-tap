@@ -37,3 +37,4 @@ class Kommand0 < Formula
     assert_match version.to_s, shell_output("#{bin}/kmd --version")
   end
 end
+# validation trigger — CI re-run will remove this
