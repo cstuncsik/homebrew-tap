@@ -6,36 +6,8 @@
 class Kommand0 < Formula
   desc "Keyboard-first local orchestrator for parallel Claude Code sessions"
   homepage "https://github.com/cstuncsik/kommand0"
-  # version is intentionally omitted — Homebrew derives it from the URL (an
-  # explicit stanza would be flagged redundant by ==> Auditing a sample of available languages for firefox: nb, trs, be, he, eu, br, oc, uk, en-CA and bn
-==> Auditing a sample of available languages for firefox@beta: de, zh-TW, es-CL, nl, gl, en-CA, fr, es-ES, pt and ja
-==> Auditing a sample of available languages for firefox@developer-edition: pt-BR, zh-TW, en-CA, ru, uk, cs, en, fr, it and ja
-==> Auditing a sample of available languages for firefox@esr: ne, en-CA, es-CL, en, ja, es-ES, pt-BR, hi, zh and gl
-==> Auditing a sample of available languages for firefox@nightly: en, ja, uk, de, ru, en-GB, cs, en-CA, nl and it
-==> Auditing a sample of available languages for libreoffice-language-pack: cs, sd, lv, ks, sa-IN, st, fa, sw-TZ, ga and be
-==> Auditing a sample of available languages for libreoffice-still-language-pack: st, br, zh-TW, ts, bs, hi, mn, be, hu and dz
-==> Auditing a sample of available languages for seamonkey: sv, no, zh-TW, de, el, pt, es-AR, ja, hu and ka
-==> Auditing a sample of available languages for thunderbird: ko, hy, en-GB, bg, fi, sv, ru, el, uz and da
-==> Auditing a sample of available languages for thunderbird@beta: nl, pt, de, zh-TW, cs, it, gl, zh, ja and pl
-==> Auditing a sample of available languages for thunderbird@daily: en-GB, uk, zh-TW, fr, en, de, gl, zh, pt and pl
-==> Auditing a sample of available languages for thunderbird@esr: et, pl, gd, de, es-ES, en-CA, ar, it, ro and da
-carla
-  * Dependency 'pyqt@5' is deprecated but has un-deprecated dependents. Either
-    un-deprecate 'pyqt@5' or deprecate it and all of its dependents.
-  * Dependency 'qt@5' is deprecated but has un-deprecated dependents. Either
-    un-deprecate 'qt@5' or deprecate it and all of its dependents.
-glibc
-  * The glibc version must be 2.39, as needed by our CI on Linux. The glibc formula is for users who have a system glibc with a lower version, which allows them to use our Linux bottles, which were compiled against system glibc on CI.
-gnuradio
-  * Dependency 'pyqt@5' is deprecated but has un-deprecated dependents. Either
-    un-deprecate 'pyqt@5' or deprecate it and all of its dependents.
-  * Dependency 'qt@5' is deprecated but has un-deprecated dependents. Either
-    un-deprecate 'qt@5' or deprecate it and all of its dependents.
-  * Dependency 'qwt-qt5' is deprecated but has un-deprecated dependents. Either
-    un-deprecate 'qwt-qt5' or deprecate it and all of its dependents.
-mgba
-  * Dependency 'qt@5' is deprecated but has un-deprecated dependents. Either
-    un-deprecate 'qt@5' or deprecate it and all of its dependents.).
+  # version is intentionally omitted: Homebrew derives it from the URL, and an
+  # explicit stanza would be flagged redundant by brew audit.
   license "MIT"
 
   on_macos do
