@@ -12,19 +12,19 @@ class Kommand0 < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/cstuncsik/kommand0/releases/download/v0.5.0/kommand0-v0.5.0-macos-universal.tar.gz"
-      sha256 "e7adff46d7dd27545e05944c52ff1811029b861568b6887b4212ffdae9a9fafb"
+      url "https://github.com/cstuncsik/kommand0/releases/download/v0.5.1/kommand0-v0.5.1-macos-universal.tar.gz"
+      sha256 "b17fec7a69dfcf289e082de58610df535e9ceb3173120640e16cff366b920159"
     end
     on_intel do
-      url "https://github.com/cstuncsik/kommand0/releases/download/v0.5.0/kommand0-v0.5.0-macos-universal.tar.gz"
-      sha256 "e7adff46d7dd27545e05944c52ff1811029b861568b6887b4212ffdae9a9fafb"
+      url "https://github.com/cstuncsik/kommand0/releases/download/v0.5.1/kommand0-v0.5.1-macos-universal.tar.gz"
+      sha256 "b17fec7a69dfcf289e082de58610df535e9ceb3173120640e16cff366b920159"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cstuncsik/kommand0/releases/download/v0.5.0/kommand0-v0.5.0-linux-x86_64.tar.gz"
-      sha256 "4d9689bc3618a957c24221ebec0c6fac31e62911dca20fb0086bd5ac67bae50b"
+      url "https://github.com/cstuncsik/kommand0/releases/download/v0.5.1/kommand0-v0.5.1-linux-x86_64.tar.gz"
+      sha256 "95a117f7e0229bc57f3ec0b095c208d27fee2caad0bd9934ce0b128c926deb57"
     end
   end
 
